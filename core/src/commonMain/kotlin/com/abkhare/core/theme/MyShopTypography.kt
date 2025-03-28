@@ -1,4 +1,4 @@
-package com.khareab.myshop.core.theme
+package com.abkhare.core.theme
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.Immutable
@@ -6,8 +6,11 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
-import myshop.composeapp.generated.resources.Res
-import myshop.composeapp.generated.resources.Roboto_Regular
+import myshop.core.generated.resources.Res
+import myshop.core.generated.resources.Roboto_Bold
+import myshop.core.generated.resources.Roboto_Light
+import myshop.core.generated.resources.Roboto_Medium
+import myshop.core.generated.resources.Roboto_Regular
 import org.jetbrains.compose.resources.Font
 
 @Immutable
@@ -37,12 +40,16 @@ fun getMyAppTypography(): MyShopTypography {
             weight = FontWeight.Normal
         ),
         Font(
-            resource = Res.font.Roboto_Regular,
+            resource = Res.font.Roboto_Medium,
             weight = FontWeight.Medium
         ),
         Font(
-            resource = Res.font.Roboto_Regular,
+            resource = Res.font.Roboto_Bold,
             weight = FontWeight.Bold
+        ),
+        Font(
+            resource = Res.font.Roboto_Light,
+            weight = FontWeight.Light
         )
     )
     // Heading Styles

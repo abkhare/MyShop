@@ -1,4 +1,4 @@
-package com.khareab.myshop.core.theme
+package com.abkhare.core.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.runtime.Composable
