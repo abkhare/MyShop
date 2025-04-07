@@ -54,11 +54,16 @@ kotlin {
                 implementation(compose.ui)
                 implementation(compose.components.resources)
                 implementation(compose.components.uiToolingPreview)
+                implementation(compose.materialIconsExtended)
+                implementation(compose.animationGraphics)
+                implementation(compose.animation)
             }
         }
     }
-
 }
+
+compose.resources { publicResClass = true }
+dependencies { debugImplementation(compose.uiTooling) }
 
 android {
     namespace = "com.khareab.myshop.core"

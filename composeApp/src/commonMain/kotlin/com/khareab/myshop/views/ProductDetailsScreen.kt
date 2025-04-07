@@ -1,4 +1,4 @@
-package com.khareab.myshop.screens
+package com.khareab.myshop.views
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border

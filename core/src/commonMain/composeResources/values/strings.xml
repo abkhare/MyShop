@@ -1,0 +1,9 @@
+<!-- error_   An error message -->
+<!-- msg_   A regular information message -->
+<!-- title_   A title, i.e. a dialog title -->
+<!-- action_   An action such as “Save” or “Create -->
+
+<resources>
+    <string name="title_home_tab">Home</string>
+    <string name="title_cart_tab">Cart</string>
+</resources>
